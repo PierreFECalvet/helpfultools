@@ -1,3 +1,6 @@
+# This allows the user to partially duplicate a csv file when there are too many columns
+# Use case : a craw csv file has a custom full pages extraction and it doesnt do well with a csv reader like Excel or DSS Dataiku
+
 import csv
 
 def main(input_file, output_file, num_col):
